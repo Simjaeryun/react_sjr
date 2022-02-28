@@ -6,8 +6,15 @@
 }
 
 @import "./common/reset";
-@import "./common/side.scss";
+@import "./common/side";
 @import "./common/header";
-@import "./common/layout.scss";
+@import "./common/layout";
 
-@import "./main/visual.scss";
+@import "./main/visual";
+@import "./main/about";
+
+.App {
+	background: #fdda00;
+	width: 100%;
+	overflow-x: hidden;
+}
