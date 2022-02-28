@@ -1,9 +1,13 @@
 export default function Aside() {
     return (
         <aside className="side">
-            <button className="side_btn"></button>
+            <div className="side_btn">
+                <div className="side_btn_top"></div>
+                <div className="side_btn_mid"></div>
+                <div className="side_btn_bottom"></div>
+            </div>
             <div className="side_column_txt">
-                aa
+                speak to a bear
             </div>
         </aside>
     )

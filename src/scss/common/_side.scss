@@ -1,8 +1,60 @@
 .side {
-	width: 70px;
+	width: 80px;
 	height: 100vh;
 	position: fixed;
 	top: 0;
 	right: 0;
 	background: #fff;
+	padding-top: 20px;
+	.side_btn {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		cursor: pointer;
+		transition: all 3s;
+
+		.side_btn_top,
+		.side_btn_mid,
+		.side_btn_bottom {
+			width: 60%;
+			background: #000;
+			height: 5px;
+			margin-bottom: 10px;
+			&::after {
+				position: relative;
+				top: 3px;
+				left: 3px;
+				z-index: -1;
+				content: "";
+				display: block;
+				width: 100%;
+				height: 5px;
+				background: #0eff86;
+			}
+		}
+	}
+	.side_column_txt {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		text-align: center;
+		transform: translateY(-70%);
+		writing-mode: tb-rl;
+		font-size: 24px;
+		font-weight: bold;
+		cursor: pointer;
+		&::after {
+			content: "";
+			display: block;
+			width: 8px;
+			height: 100%;
+			background: #0eff86;
+			position: absolute;
+			left: 24px;
+			z-index: -1;
+		}
+	}
 }
