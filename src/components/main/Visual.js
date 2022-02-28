@@ -7,13 +7,13 @@ export default function Visual() {
                     <img src={`${path}/img/pngegg.png`} alt="" />
                     <div className="visual_txt">
                         <p className="visual_desc">
-                            helping you <span>hoomans</span>
+                            심재륜의 <span>Portfolio</span>
                         </p>
                         <h1 className="visual_title">
-                            create curiosity
+                            시작합니다!
                         </h1>
                         <p className="visual_desc">
-                            with our <span>bear</span> hands
+                            곰과 함께 <span>Portfolio</span> 시작하기
                         </p>
                     </div>
                     <div className="visual_btn">

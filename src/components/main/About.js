@@ -5,13 +5,13 @@ export default function About() {
         <section className="about">
             <div className="inner">
                 <h1 className="about_title">
-                    Bears help you hoomans to
+                    곰이 당신을 도와줄겁니다
                 </h1>
             </div>
             <div className="about_content">
                 <div className="about_content_top">
-                    <h2 className="about_content_row">build create develop craft make </h2>
-                    <h2 className="about_content_row">build create develop craft make </h2>
+                    <h2 className="about_content_row">밑으로 내리면 Porfolio가 나옴</h2>
+                    <h2 className="about_content_row">밑으로 내리면 Porfolio가 나옴</h2>
                 </div>
 
                 <div className="about_content_bottom">
