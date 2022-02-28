@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
+// font-family: 'Space Grotesk', sans-serif;
+@font-face {
+	font-family: "grotesk";
+	src: url("../font/NeuzeitSBook.ttf");
+}
+
+@import "./common/reset";
+@import "./common/side.scss";
+@import "./common/header";
+@import "./common/layout.scss";
+
+@import "./main/visual.scss";
