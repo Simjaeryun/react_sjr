@@ -4,6 +4,20 @@
 	font-family: "grotesk";
 	src: url("../font/NeuzeitSBook.ttf");
 }
+@font-face {
+	font-family: "SBAggroB";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+		format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "GowunBatang-Regular";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff")
+		format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
 
 @import "./common/reset";
 @import "./common/side";

@@ -2,9 +2,9 @@
 	position: relative;
 	text-align: center;
 	font-family: "grotesk";
-	font-weight: 900;
 	display: flex;
 	width: 100%;
+	min-height: 100vh;
 	.portfolio_content {
 		position: absolute;
 		display: flex;

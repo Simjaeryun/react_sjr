@@ -19,13 +19,29 @@
 			.intro_txt {
 				width: 70%;
 				padding-left: 50px;
-
 				.intro_title {
+					font-family: "SBAggroB";
+					display: inline-block;
 					font-size: 65px;
 					margin-bottom: 50px;
+					position: relative;
+					z-index: 2;
+					span {
+						&::after {
+							content: "";
+							display: block;
+							position: absolute;
+							bottom: 3px;
+							width: 100%;
+							height: 20px;
+							background: #fff;
+							z-index: -1;
+						}
+					}
 				}
 				p {
-					font-size: 18px;
+					font-family: "GowunBatang-Regular";
+					font-size: 22px;
 					padding: 0px 80px;
 					line-height: 30px;
 				}

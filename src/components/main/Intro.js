@@ -9,7 +9,7 @@ export default function Intro() {
                     </div>
                     <div className="intro_txt">
                         <h1 className="intro_title">
-                            개발자를 왜 하고싶을까?
+                            <span>개발자를 왜 하고싶을까?</span>
                         </h1>
                         <p>
                             게임, 웹서핑, 영화 등 내가 좋아하는 취미들이 다 컴퓨터와 관련됐습니다.
@@ -29,7 +29,7 @@ export default function Intro() {
                 <div className="intro_content">
                     <div className="intro_txt">
                         <h1 className="intro_title">
-                            입사 후 목표
+                            <span>입사 후 목표</span>
                         </h1>
                         <p>
                             가장 눈앞에있는 첫번째 목표로는 회사에 입사하여 주어지는 업무에 최대한 빨리

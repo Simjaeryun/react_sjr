@@ -1,22 +1,14 @@
-import { useEffect, useState } from "react"
-import { useRef } from "react"
-
+import { useState } from "react"
 
 export default function Portfolio() {
     const path = process.env.PUBLIC_URL;
-    const por = useRef(null);
-    const porCtt = useRef(null);
     const [isOn, setIsOn] = useState(true);
-    useEffect(() => {
-
-    })
-
 
     return (
-        <section className="portfolio" ref={por}>
+        <section className="portfolio">
             <div
                 className={isOn ? "portfolio_content on" : "portfolio_content"}
-                ref={porCtt}>
+            >
                 <div className="inner">
                     <h1
                         className="animate__animated animate__bounce"
@@ -29,7 +21,7 @@ export default function Portfolio() {
                     <p>제목을 클릭하시면 포트폴리오가 보입니다.</p>
                 </div>
             </div>
-            <div className={!isOn ? "portfolio_content on" : "portfolio_content"} ref={porCtt}>
+            <div className={!isOn ? "portfolio_content on" : "portfolio_content"} >
                 <div className="inner">
                     <h1 onClick={() => {
                         setIsOn(true);

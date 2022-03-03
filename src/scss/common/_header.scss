@@ -1,11 +1,12 @@
 .header {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	height: 150px;
 	width: 100%;
 	padding-left: 30px;
 	padding-top: 30px;
+	z-index: 10;
 	.header_logo {
 		display: block;
 		width: 100px;
