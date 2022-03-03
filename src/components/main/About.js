@@ -4,17 +4,31 @@ export default function About() {
     return (
         <section className="about">
             <div className="inner">
-                <h1 className="about_title">
-                    곰이 당신을 도와줄겁니다
-                </h1>
+
             </div>
             <div className="about_content">
-                <div className="about_content_top">
-                    <h2 className="about_content_row">밑으로 내리면 Porfolio가 나옴</h2>
-                    <h2 className="about_content_row">밑으로 내리면 Porfolio가 나옴</h2>
+                <div
+                    className="about_content_top"
+                    onMouseEnter={(e) => {
+                        e.currentTarget.style.animationPlayState = "paused"
+                    }}
+                    onMouseLeave={(e) => {
+                        e.currentTarget.style.animationPlayState = "running"
+                    }}
+                >
+                    <h2 className="about_content_row">tlawofbs123@naver.com로 연락 부탁드려요</h2>
+                    <h2 className="about_content_row">tlawofbs123@naver.com로 연락 부탁드려요</h2>
                 </div>
 
-                <div className="about_content_bottom">
+                <div
+                    className="about_content_bottom"
+                    onMouseEnter={(e) => {
+                        e.currentTarget.style.animationPlayState = "paused"
+                    }}
+                    onMouseLeave={(e) => {
+                        e.currentTarget.style.animationPlayState = "running"
+                    }}
+                >
                     <h2 className="about_content_row">
                         <Link to="/">portfolio</Link>
                         <Link to="/">portfolio</Link>

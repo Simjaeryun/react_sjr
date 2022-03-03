@@ -15,16 +15,18 @@
 			margin-bottom: 50px;
 			position: relative;
 			animation: aboutTopAni 10s linear infinite;
+
 			display: flex;
 			width: 200%;
 			height: 100%;
 
 			h2 {
+				font-family: "SDSamliphopangche_Outline";
 				width: 100%;
-				font-size: 130px;
-				color: #fdda00;
-				text-shadow: 0px 0px 3px #000;
-				margin-right: 20px;
+				text-align: center;
+				font-size: 90px;
+				color: #000;
+				margin-right: 0px;
 			}
 		}
 
