@@ -14,6 +14,7 @@
 					height: 100%;
 					object-fit: cover;
 					animation: introAni 2s linear infinite;
+					filter: grayscale(0.7);
 				}
 			}
 			.intro_txt {

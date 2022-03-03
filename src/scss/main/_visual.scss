@@ -46,6 +46,8 @@
 				.visual_desc {
 					font-size: 32px;
 					font-weight: bold;
+					position: relative;
+
 					&:first-child {
 						padding-left: 50px;
 						margin-bottom: 15px;
@@ -171,5 +173,14 @@
 	}
 	100% {
 		transform: rotate(0deg);
+	}
+}
+
+@keyframes visualTxtAni {
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 0%;
 	}
 }
