@@ -23,13 +23,23 @@ export default function Visual() {
                         </div>
                         <div className="visual_txt">
                             <p className="visual_desc">
-                                심재륜의 <span>Portfolio</span>
+                                <div className="visual_desc_txt">
+                                    심재륜의 <span>Portfolio</span>
+                                </div>
+
+                                <div className="visual_desc_back"></div>
                             </p>
                             <h1 className="visual_title">
-                                시작합니다!
+                                <div className="visual_title_txt">
+                                    시작합니다!
+                                </div>
+                                <div className="visual_title_back"></div>
                             </h1>
                             <p className="visual_desc">
-                                곰과 함께 <span>Portfolio</span> 시작하기
+                                <div className="visual_desc_txt">
+                                    곰과 함께 <span>Portfolio</span> 시작하기
+                                </div>
+                                <div className="visual_desc_back"></div>
                             </p>
                         </div>
                         <div className="visual_btn">
