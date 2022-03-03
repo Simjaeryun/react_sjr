@@ -8,7 +8,19 @@ export default function Visual() {
             <section className="visual">
                 <div className="inner">
                     <div className="visual_content">
-                        <img src={`${path}/img/pngegg.png`} alt="" />
+                        <div className="visual_pic">
+                            <div className="visual_pic_sun  animate__animated animate__fadeInDown">
+                                <img
+                                    src={`${path}/img/bear_logo_sunglass.png`}
+                                    alt="" />
+                            </div>
+                            <div className="visual_pic_bear">
+                                <img
+                                    src={`${path}/img/pngegg.png`}
+                                    alt="곰사진" />
+                            </div>
+
+                        </div>
                         <div className="visual_txt">
                             <p className="visual_desc">
                                 심재륜의 <span>Portfolio</span>

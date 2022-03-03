@@ -1,5 +1,5 @@
 .visual {
-	padding-top: 150px;
+	padding-top: 120px;
 	// header크기만큼 padding줌
 	width: 100vw;
 	height: 100vh;
@@ -8,14 +8,35 @@
 			display: flex;
 			justify-content: center;
 			position: relative;
-			img {
-				position: relative;
-				top: 50px;
-				width: 45%;
-				height: 45%;
-				object-fit: contain;
+			.visual_pic {
 				animation: visualAni 2s linear infinite;
+				.visual_pic_sun {
+					position: absolute;
+					width: 20%;
+					height: 20%;
+					top: 95px;
+					left: 22%;
+					z-index: 2;
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: contain;
+						transform: rotateY(180deg);
+					}
+				}
+				.visual_pic_bear {
+					width: 100%;
+					height: 100%;
+					img {
+						position: relative;
+						top: 50px;
+						width: 80%;
+						height: 80%;
+						object-fit: contain;
+					}
+				}
 			}
+
 			.visual_txt {
 				width: 100%;
 				position: absolute;
@@ -110,7 +131,6 @@
 	justify-content: center;
 	align-items: center;
 	z-index: 5;
-
 	.popup_img {
 		position: relative;
 		.popup_close {
