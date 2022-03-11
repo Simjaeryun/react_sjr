@@ -1,8 +1,16 @@
-import { useState } from "react"
+import axios from "axios";
+import { useEffect, useState } from "react"
 
 export default function Portfolio() {
     const path = process.env.PUBLIC_URL;
+    const [portfolio, setPortfolio] = useState([])
     const [isOn, setIsOn] = useState(true);
+    useEffect(() => {
+        axios.get(`${path}/data/portfolio.json`)
+            .then((data) => {
+                setPortfolio(data.data.data)
+            })
+    }, [])
 
     return (
         <section className="portfolio">
@@ -28,45 +36,23 @@ export default function Portfolio() {
                     }}>
                         PORTFOLIO
                     </h1>
-                    <div className="portfolio_card">
-                        <div className="portfolio_card_pic">
-                            <img src={`${path}/img/portfolio1.png`} alt="" />
-                        </div>
-                        <div className="portfolio_card_txt">
-                            <h2 className="portfolio_card_title">
-                                포트폴리오
-                            </h2>
-                            <p className="portfolio_card_desc">
-                                이건포트폴리오
-                            </p>
-                        </div>
-                    </div>
-                    <div className="portfolio_card">
-                        <div className="portfolio_card_pic">
-                            <img src={`${path}/img/portfolio1.png`} alt="" />
-                        </div>
-                        <div className="portfolio_card_txt">
-                            <h2 className="portfolio_card_title">
-                                포트폴리오
-                            </h2>
-                            <p className="portfolio_card_desc">
-                                이건포트폴리오
-                            </p>
-                        </div>
-                    </div>
-                    <div className="portfolio_card">
-                        <div className="portfolio_card_pic">
-                            <img src={`${path}/img/portfolio1.png`} alt="" />
-                        </div>
-                        <div className="portfolio_card_txt">
-                            <h2 className="portfolio_card_title">
-                                포트폴리오
-                            </h2>
-                            <p className="portfolio_card_desc">
-                                이건포트폴리오
-                            </p>
-                        </div>
-                    </div>
+                    {portfolio.map((data, index) => {
+                        return (
+                            <div className="portfolio_card" key={index}>
+                                <div className="portfolio_card_pic">
+                                    <img src={`${path}/${data.pic}`} alt="portfolio page 사진" />
+                                </div>
+                                <div className="portfolio_card_txt">
+                                    <h2 className="portfolio_card_title">
+                                        {data.name}
+                                    </h2>
+                                    <p className="portfolio_card_desc">
+                                        {data.info}
+                                    </p>
+                                </div>
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
         </section>

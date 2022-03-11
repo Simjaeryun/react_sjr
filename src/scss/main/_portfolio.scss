@@ -35,9 +35,9 @@
 			background: #000;
 			color: #fff;
 			&.on {
-				margin-top: 100px;
 				overflow: visible;
 				height: auto;
+				animation: portfolioAni 0.5s linear forwards;
 			}
 			h1 {
 				font-size: 100px;
@@ -70,5 +70,14 @@
 				}
 			}
 		}
+	}
+}
+
+@keyframes portfolioAni {
+	0% {
+		transform: translateY(200px);
+	}
+	100% {
+		transform: translateY(0px);
 	}
 }
