@@ -42,7 +42,9 @@ export default function Portfolio() {
                         return (
                             <div className="portfolio_card" key={index}>
                                 <div className="portfolio_card_pic">
-                                    <img src={`${path}/${data.pic}`} alt="portfolio page 사진" />
+                                    <a href={data.url} target="_blank" rel="noreferrer">
+                                        <img src={`${path}/${data.pic}`} alt="portfolio page 사진" />
+                                    </a>
                                 </div>
                                 <div className="portfolio_card_txt">
                                     <h2 className="portfolio_card_title">
@@ -55,9 +57,6 @@ export default function Portfolio() {
                                         <li><a href={data.github_url} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
                                         <li><a href={data.insta_url} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a></li>
                                         <li>tlawofbs123@naver.com</li>
-
-
-
                                     </ul>
                                 </div>
                             </div>

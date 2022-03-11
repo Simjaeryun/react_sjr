@@ -1,6 +1,7 @@
 {
     "data": [
         {
+            "url": "https://simjaeryun.github.io/react_feb/#/",
             "name": "Fashion magazine page",
             "pic": "img/portfolio1.jpg",
             "github_url": "https://github.com/Simjaeryun/react_feb",
@@ -9,6 +10,7 @@
             "info": "패션 잡지 느낌이 나는 페이지를 만들어보고싶어서 react를 배우며 제작했습니다. kakao api와 youtube api를 사용 했고 scss를 사용해 스타일을 작성하고 redux로 data관리를 했고, axios로 api데이터를 fetch했습니다. 페이지 만들면서 react에서 사용하는 jsx 문법에 대해 알게 됐습니다.  "
         },
         {
+            "url": "https://simjaeryun.github.io/portfolio_surf_ver2/",
             "name": "Surfing shop page",
             "pic": "img/portfolio2.jpg",
             "github_url": "https://github.com/Simjaeryun/portfolio_surf_ver2",
@@ -17,6 +19,7 @@
             "info": "핀터레스트에 레이아웃을 참고해서 surfing관련 페이지를 제작해봤습니다 javascript, scss로 제작 됐고, youtube, kakako, flickr api를 활용해서 subpage 컨텐츠를 채웠습니다. 이 페이지를 만들며 ES6 문법에대해 많이 공부가 됐습니다. url을 사용해 data를 fetch하는 법에대해서도 익숙해 졌습니다. "
         },
         {
+            "url": "https://simjaeryun.github.io/react_sjr",
             "name": "About page",
             "pic": "img/portfolio3.jpg",
             "github_url": "https://github.com/Simjaeryun/react_sjr",
