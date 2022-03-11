@@ -6,7 +6,11 @@ export default function Header() {
         <header className="header">
             <Link
                 to={"/"}
-                className="header_logo">
+                className="header_logo"
+                onClick={() => {
+                    window.scrollTo(0, 0)
+                }}
+            >
                 <img src={`${path}/img/bear_logo.gif`} alt="" />
             </Link>
         </header>
