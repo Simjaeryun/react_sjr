@@ -33,7 +33,7 @@
 		&:nth-child(2) {
 			padding-top: 100px;
 			background: #000;
-			color: #fff;
+			color: #eee;
 			&.on {
 				overflow: visible;
 				height: auto;
@@ -52,7 +52,6 @@
 			justify-content: space-between;
 			.portfolio_card_pic {
 				width: 50%;
-				background: #fff;
 				img {
 					width: 100%;
 					height: 100%;
@@ -60,13 +59,31 @@
 				}
 			}
 			.portfolio_card_txt {
+				padding: 0px 30px;
 				width: 50%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
 				.portfolio_card_title {
 					font-size: 45px;
 					margin-bottom: 30px;
 				}
 				.portfolio_card_desc {
-					font-size: 24px;
+					font-size: 20px;
+					line-height: 30px;
+				}
+				.portfolio_card_link {
+					margin-top: 20px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					li {
+						margin-right: 25px;
+						a {
+							color: #fff;
+							font-size: 40px;
+						}
+					}
 				}
 			}
 		}

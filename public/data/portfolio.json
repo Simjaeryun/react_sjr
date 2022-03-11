@@ -3,19 +3,25 @@
         {
             "name": "Fashion magazine page",
             "pic": "img/portfolio1.jpg",
-            "github_url": "",
+            "github_url": "https://github.com/Simjaeryun/react_feb",
+            "insta_url": "  https://www.instagram.com/yoki_odi/",
+            "email": "tlawofbs123@naver.com",
             "info": "패션 잡지 느낌이 나는 페이지를 만들어보고싶어서 react를 배우며 제작했습니다. kakao api와 youtube api를 사용 했고 scss를 사용해 스타일을 작성하고 redux로 data관리를 했고, axios로 api데이터를 fetch했습니다. 페이지 만들면서 react에서 사용하는 jsx 문법에 대해 알게 됐습니다.  "
         },
         {
             "name": "Surfing shop page",
             "pic": "img/portfolio2.jpg",
-            "github_url": "",
+            "github_url": "https://github.com/Simjaeryun/portfolio_surf_ver2",
+            "insta_url": "  https://www.instagram.com/yoki_odi/",
+            "email": "tlawofbs123@naver.com",
             "info": "핀터레스트에 레이아웃을 참고해서 surfing관련 페이지를 제작해봤습니다 javascript, scss로 제작 됐고, youtube, kakako, flickr api를 활용해서 subpage 컨텐츠를 채웠습니다. 이 페이지를 만들며 ES6 문법에대해 많이 공부가 됐습니다. url을 사용해 data를 fetch하는 법에대해서도 익숙해 졌습니다. "
         },
         {
-            "name": "Surfing shop page",
+            "name": "About page",
             "pic": "img/portfolio3.jpg",
-            "github_url": "",
+            "github_url": "https://github.com/Simjaeryun/react_sjr",
+            "insta_url": "  https://www.instagram.com/yoki_odi/",
+            "email": "tlawofbs123@naver.com",
             "info": "제작한 portfolio들과 저에 대해서 소개하기 위해서 만든 페이지입니다. 본 페이지를 만들면서 css에 animation 조작에 능숙해졌고, react로 만드느라 react hook, axios 등 기술들을 한번 더 사용하면서 react사용에 더 가까워 졌습니다."
         }
     ]

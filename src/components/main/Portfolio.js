@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
-
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 export default function Portfolio() {
     const path = process.env.PUBLIC_URL;
     const [portfolio, setPortfolio] = useState([])
@@ -49,6 +51,14 @@ export default function Portfolio() {
                                     <p className="portfolio_card_desc">
                                         {data.info}
                                     </p>
+                                    <ul className="portfolio_card_link">
+                                        <li><a href={data.github_url} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                        <li><a href={data.insta_url} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                                        <li>tlawofbs123@naver.com</li>
+
+
+
+                                    </ul>
                                 </div>
                             </div>
                         )
