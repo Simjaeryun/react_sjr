@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react_sjr/static/css/main.ba16bea3.css",
+    "main.css": "/react_sjr/static/css/main.bc4a7c4b.css",
     "main.js": "/react_sjr/static/js/main.d9eaa544.js",
     "static/media/NeuzeitSBook.ttf": "/react_sjr/static/media/NeuzeitSBook.7f3913539885ba66f9ee.ttf",
     "index.html": "/react_sjr/index.html",
-    "main.ba16bea3.css.map": "/react_sjr/static/css/main.ba16bea3.css.map",
+    "main.bc4a7c4b.css.map": "/react_sjr/static/css/main.bc4a7c4b.css.map",
     "main.d9eaa544.js.map": "/react_sjr/static/js/main.d9eaa544.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba16bea3.css",
+    "static/css/main.bc4a7c4b.css",
     "static/js/main.d9eaa544.js"
   ]
 }
