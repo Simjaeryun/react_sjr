@@ -116,4 +116,25 @@
 			}
 		}
 	}
+	//About section
+	.about {
+		width: 100%;
+		margin-top: 350px;
+		margin-bottom: 200px;
+		.about_content {
+			.about_content_top {
+				h2 {
+					font-size: 5vw;
+				}
+			}
+			.about_content_bottom {
+				h2 {
+					a {
+						margin-right: 30px;
+						font-size: 8vw;
+					}
+				}
+			}
+		}
+	}
 }
