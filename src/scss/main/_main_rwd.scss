@@ -1,0 +1,40 @@
+@media (max-width: 1299px) {
+	.side {
+		height: auto;
+		&.on {
+			.side_btn {
+				padding-bottom: 20px;
+			}
+		}
+		.side_column_txt {
+			display: none;
+		}
+	}
+
+	.side_content {
+		padding: 0px 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.inner {
+			width: 100%;
+			ul.side_content_list {
+				width: 50%;
+				li {
+					font-size: 60px;
+				}
+			}
+			.side_content_contact {
+				padding: 0;
+				.side_content_contact_title {
+					font-size: 18px;
+				}
+				ul {
+					li {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}

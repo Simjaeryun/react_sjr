@@ -18,7 +18,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 @font-face {
 	font-family: "SDSamliphopangche_Outline";
 	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff")
@@ -27,15 +26,19 @@
 	font-style: normal;
 }
 
+// 공통 scss
 @import "./common/reset";
 @import "./common/side";
 @import "./common/header";
 @import "./common/layout";
 
+// index페이지 css
+
 @import "./main/visual";
 @import "./main/about";
 @import "./main/intro";
 @import "./main/portfolio";
+@import "./main/main_rwd";
 
 .App {
 	background: #fdda00;

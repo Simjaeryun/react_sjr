@@ -6,6 +6,7 @@
 	right: 0;
 	background: #fff;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	z-index: 5;
 	&.on {
 		background: #fdda00;
@@ -100,11 +101,12 @@
 	z-index: 4;
 	background: #000;
 	animation: sideContentAni 1s forwards;
+	padding: 0px 100px;
 	.inner {
 		display: flex;
 		padding-top: 200px;
 		ul.side_content_list {
-			width: 50%;
+			width: 40%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -134,13 +136,14 @@
 			}
 		}
 		.side_content_contact {
-			padding-left: 13vw;
-			width: 50%;
+			padding-left: 100px;
+			width: 60%;
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			font-family: "SBAggroB";
 			color: #fff;
+
 			.side_content_contact_title {
 				font-size: 22px;
 				color: #fdda00;
