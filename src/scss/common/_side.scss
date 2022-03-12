@@ -99,6 +99,7 @@
 	left: 0;
 	z-index: 4;
 	background: #000;
+	animation: sideContentAni 1s forwards;
 	.inner {
 		display: flex;
 		padding-top: 200px;
@@ -121,11 +122,11 @@
 						&::after {
 							content: "";
 							display: block;
-							animation: sideAni 0.5s forwards;
-							height: 15px;
+							animation: sideTxtAni 0.5s forwards;
+							height: 20px;
 							background: #fdda00;
 							position: relative;
-							top: -15px;
+							top: -25px;
 							z-index: -1;
 						}
 					}
@@ -154,11 +155,22 @@
 	}
 }
 
-@keyframes sideAni {
+@keyframes sideTxtAni {
 	0% {
 		width: 0;
 	}
 	100% {
 		width: 100%;
+	}
+}
+
+@keyframes sideContentAni {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
 	}
 }

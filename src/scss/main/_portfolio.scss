@@ -17,6 +17,9 @@
 		background: #fdda00;
 		transition: all 0.5s linear;
 		opacity: 0;
+		.inner {
+			padding: 0px 100px;
+		}
 		h1 {
 			font-size: 150px;
 			margin-bottom: 50px;
@@ -35,7 +38,6 @@
 			background: #000;
 			color: #eee;
 			&.on {
-				overflow: visible;
 				height: auto;
 				animation: portfolioAni 0.5s linear forwards;
 			}

@@ -4,10 +4,10 @@
 	width: 100vw;
 	height: 100vh;
 	.inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		.visual_content {
-			display: flex;
-			align-items: center;
-			flex-direction: column;
 			position: relative;
 			.visual_pic {
 				animation: visualAni 2s linear infinite;
@@ -33,35 +33,35 @@
 					height: 100%;
 					text-align: center;
 					animation: visualBearAni 2s forwards;
+					opacity: 0.8;
 					img {
 						position: relative;
 						top: 20px;
-						width: 80%;
-						height: 80%;
+						width: 70%;
+						height: 70%;
 						object-fit: contain;
-						filter: grayscale(0.7);
+						filter: grayscale(0.8);
 					}
 				}
 			}
 			.visual_txt {
 				position: absolute;
 				left: 50%;
-				top: 50%;
+				top: 60%;
 				transform: translate(-50%, -50%);
 				.visual_desc {
 					font-size: 32px;
 					font-weight: bold;
 					position: relative;
-
 					&:first-child {
 						position: absolute;
-						left: -50%;
-						top: -60%;
+						left: -70%;
+						top: -90%;
 					}
 					&:last-child {
 						position: absolute;
-						right: -80%;
-						bottom: -60%;
+						right: -85%;
+						bottom: -90%;
 					}
 					.visual_desc_txt {
 						opacity: 0;
@@ -99,7 +99,7 @@
 						font-family: "grotesk";
 						font-weight: 900;
 						letter-spacing: 5px;
-						font-size: 90px;
+						font-size: 70px;
 						color: #fff;
 						text-align: center;
 						animation: visualTxtAni 2.5s forwards;
@@ -120,7 +120,7 @@
 				position: absolute;
 				left: 50%;
 				transform: translateX(-50%);
-				bottom: -100px;
+				bottom: -50px;
 				animation: visualBtnAni 2s forwards;
 				animation-delay: 3s;
 				opacity: 0;
